@@ -1,0 +1,49 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-color: #F5F5DC;
+}
+
+.box {
+  width: 50%;
+  background-color: #BDB76B;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 40%;
+}
+
+ul {
+  text-align: left;
+}
+
+#todo-block {
+   width: 30%;
+  float: left;
+  background-color: #BDB76B;
+  border-radius: 25px;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 1%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+#completed-block {
+   width: 30%;
+  float: right;
+  background-color: #BDB76B;
+  border-radius: 25px;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 1%;
+  margin-top: 5%;
+  margin-right: 10%;
+}
+
+.MenuBar {
+  background-color: #00008B;
+}
+
+.menu_icon {
+  color: white;
+}
