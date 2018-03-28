@@ -1,7 +1,13 @@
+.background {
+  background-color: #ededed;
+}
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
-  background-color: #F5F5DC;
+  background-color: #ededed;
+}
+.p {
+  color:#000000;
 }
 
 .box {
@@ -11,39 +17,40 @@ body {
   padding-left: 10%;
   padding-top: 40%;
 }
-
-ul {
-  text-align: left;
+.card {
+  margin: 2%;
+  background-color: #ededed;
 }
-
-#todo-block {
-   width: 30%;
-  float: left;
-  background-color: #BDB76B;
-  border-radius: 25px;
-  padding-right: 1%;
-  padding-left: 1%;
-  padding-top: 1%;
-  margin-top: 5%;
-  margin-left: 10%;
-}
-
 #completed-block {
-   width: 30%;
-  float: right;
-  background-color: #BDB76B;
-  border-radius: 25px;
-  padding-right: 1%;
-  padding-left: 1%;
-  padding-top: 1%;
-  margin-top: 5%;
-  margin-right: 10%;
+  height: 100%;
+  width: 40%;
+  border-left: 5px solid #999999;
 }
+.mainpage {
 
+}
 .MenuBar {
-  background-color: #00008B;
+  background-color: #BDB76B;
+  border-radius: 15px;
 }
 
 .menu_icon {
   color: white;
+}
+
+#todo-block {
+  height: 100%;
+  float: left;
+  /* background-color: #BDB76B; */
+  border-right: 5px solid #999999;
+
+
+}
+
+#title {
+  color: white;
+}
+
+ul {
+  text-align: left;
 }
