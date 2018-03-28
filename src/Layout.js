@@ -28,7 +28,7 @@ export default class Layout extends React.Component {
 
       <div className="MainPage">
         <Title />
-        <MenuBar/>
+
       </div>
     )
   }
@@ -39,12 +39,14 @@ function MenuBar(props) {
     <nav className="navbar navbar-default MenuBar">
       <div className="container-fluid">
         <div className="navbar-header">
-          <a className="navbar-brand" id="title">SWAPR</a>
+          <a className="navbar-brand">SWAPR</a>
         </div>
         <p className="menu_icon">Tom P. Burdell</p>
       </div>
-    </nav>);
+    </nav>
+  );
 }
+
 function Title(props) {
   return (<title>SWAPR</title>);
 }

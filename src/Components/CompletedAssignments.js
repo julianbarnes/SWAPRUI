@@ -40,10 +40,9 @@ componentWillMount(){
 }
 render(){
     return (
-      <div id="completed-block" className = "col-lg-4">
+      <div id="completed-block" className = "col-lg-5">
       <div>
-        <h2 class="title">Completed</h2>
-        <h3>Your Assignments</h3>
+        <h3 className="justify-content-md-center">Completed</h3>
       </div>
       <div>
           {this.state.assignmentList.map((assignment) => {

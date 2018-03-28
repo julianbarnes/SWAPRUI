@@ -6,11 +6,14 @@ import {Link} from "react-router-dom";
 
 export default class AssignmentItem extends React.Component {
   render(){
-    return(<li className="card">
-    <Link to="/Assignment">
-      {this.props.assignment.title}
-      <p><div class="pull-right">assignment {this.props.assignment.dueDate} at assignment {this.props.assignment.dueTime}</div></p>
-      </Link>
+    return(
+      <li className="card">
+        {this.props.assignment.dueDate}
+        <div class="pull-right">
+          <Link to="/Assignment">
+            <p>{this.props.assignment.title}</p>
+          </Link>
+        </div>
       </li>
     );
   }

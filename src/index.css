@@ -22,13 +22,15 @@ body {
   background-color: #ededed;
 }
 #completed-block {
+  margin-top: 5%;
   height: 100%;
   width: 40%;
-  border-left: 5px solid #999999;
+  border-left: 1px solid #999999;
 }
-.mainpage {
+.main-page {
+  margin-top: 5%;
+}
 
-}
 .MenuBar {
   background-color: #BDB76B;
   border-radius: 15px;
@@ -38,17 +40,24 @@ body {
   color: white;
 }
 
+.side-menu {
+  background-color: #999999;
+  height: 100%;
+  border-radius: 10px;
+}
 #todo-block {
+  margin-top: 5%;
   height: 100%;
   float: left;
   /* background-color: #BDB76B; */
-  border-right: 5px solid #999999;
+  border-right: 1px solid #999999;
 
 
 }
 
 #title {
-  color: white;
+  color: black;
+  margin-bottom: 10%;
 }
 
 ul {
