@@ -57,7 +57,7 @@ function SideMenu(props) {
             <a className="navbar-brand" id="title">SWAPR</a>
           </li>
           <li class="nav-item">
-            <a href="#">Dashboard</a>
+            <a href="">Dashboard</a>
           </li>
         </ul>
       </nav>
