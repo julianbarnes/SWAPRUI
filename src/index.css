@@ -27,6 +27,14 @@ body {
   width: 40%;
   border-left: 1px solid #999999;
 }
+
+#completed-block h3 {
+  padding-bottom: 5%;
+}
+
+#header {
+  margin-bottom: 5%;
+}
 .main-page {
   margin-top: 5%;
 }
@@ -51,8 +59,10 @@ body {
   float: left;
   /* background-color: #BDB76B; */
   border-right: 1px solid #999999;
+}
 
-
+#todo-block h3 {
+  padding-bottom: 5%;
 }
 
 #title {
